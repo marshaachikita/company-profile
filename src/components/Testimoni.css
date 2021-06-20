@@ -1,0 +1,82 @@
+.testimoni-container {
+    height: 50vh;
+    width: 100%;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
+
+  .testimoni-kanan {
+    width: 50%;
+    height: 100%;
+    float: right;
+    display: flex;
+  }
+
+  
+  .testimoni-kanan-wrapper {
+    width: 100%;
+    height: 75%;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: relative;
+    align-self: flex-end;
+  }
+
+  .testimoni-kanan-wrapper > h4 {
+    color: #0097A7;
+    font-size: 50px;
+    margin-left: 10px;
+    text-align: right;
+    
+  }
+
+  .testimoni-kanan-wrapper > h6 {
+    color: #000;
+    font-size: 23px;
+    margin-left: 12px;
+    text-align: right;
+  }
+  
+  .testimoni-kanan-wrapper > p {
+    margin-top: 8px;
+    margin: 10px;
+    color: #000;
+    font-size: 17px;
+    text-align: right;
+    font-weight: normal;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+      'Lucida Sans', Arial, sans-serif;
+  }
+
+  .testimoni-kiri {
+    width: 50%;
+    height: 100%;
+    float: left;
+    max-width: 1500px;
+    object-fit: contain;
+    border-radius: 10px;
+  }
+  
+  @media screen and (max-width: 960px) {
+    .testimoni-kanan-wrapper > h4 {
+      font-size: 50px;
+    }
+
+    .testimoni-kanan-wrapper > h6 {
+        font-size: 15px;
+      }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .testimoni-kanan-wrapper > h4 {
+      font-size: 30px;
+    }
+
+    .testimoni-kanan-wrapper > h6 {
+        font-size: 10px;
+    }
+  
+    .testimoni-kanan-wrapper > p {
+      font-size: 12px;
+    }
+  }
